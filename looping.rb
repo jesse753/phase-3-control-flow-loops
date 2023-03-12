@@ -17,8 +17,14 @@ end
 
 def fizzbuzz_printer
   # your code here
+  
 end
 
 def reverse_string(str)
   # your code here
+  reversed_str = ""
+  str.each_char do |char|
+    reversed_str = char + reversed_str
+  end
+  reversed_str
 end
